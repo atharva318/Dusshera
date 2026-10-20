@@ -260,16 +260,6 @@ export default function App() {
       </section>
 
       <section className="end">
-        <h2>Ten heads. Ten lessons.</h2>
-        <div className="cards">
-          {HEADS.map((h) => (
-            <article key={h.vice} style={{ "--c": h.color }}>
-              <small>{h.vice} becomes</small>
-              <strong>{h.virtue}</strong>
-              <p>{h.msg}</p>
-            </article>
-          ))}
-        </div>
         <div className="wish">
           <label htmlFor="n">Send a wish to someone</label>
           <input id="n" value={name} onChange={(e) => setName(e.target.value)} placeholder="Their name" maxLength={30} />
