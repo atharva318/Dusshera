@@ -5,7 +5,7 @@ Run locally: `npm install` then `npm run dev`.
 ## Deploy on Render
 1. Push this folder to a GitHub repo.
 2. Render → New → **Static Site** → pick the repo.
-3. Build command: `npm install && npm run build`
+3. Build command: `npm ci && npm run build`
 4. Publish directory: `dist`
 5. Create Static Site. Done!
 
